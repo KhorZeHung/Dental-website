@@ -1,0 +1,41 @@
+.hc-container{
+    width: 340px;
+    height: 160px;
+    border: 1.2px solid grey;
+    border-radius: 20px;
+    padding: 5px 0px;
+    margin: 20px;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hc-wrapper{
+    display:flex;
+    height: 130px;
+    justify-content: space-around;
+    background-color: white;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.hc-dentist-name{
+    font-size: 1.5rem;
+    font-weight: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.hc-intro{
+    margin: 0;
+    padding: 0;
+}
+
+.hc-round-pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: none;
+    display: block;
+    margin: auto;
+}

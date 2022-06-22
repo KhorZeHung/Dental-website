@@ -1,0 +1,27 @@
+.S-container{
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(122, 255, 151, 0.559);
+}
+
+.S-wrapper{
+    display: flex;
+    height: 220px;
+    width: 330px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.S-icons{
+    font-size: 2rem;
+    color: green;
+}
+
+.S-icons p{
+    text-align: center;
+}

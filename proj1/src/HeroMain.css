@@ -1,0 +1,95 @@
+.Hm-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.Hm-wrapper{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.Hm-btn{
+    background-color: #00b46c;
+    color: white;
+    font-size: 1.1rem;
+    padding: 6px 12px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Hm-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Hm-items a{
+    text-decoration: none;
+}
+
+
+.Hm-img-semiround{
+    padding: 0;    
+    height: 440px;
+    margin-left: 50px;
+}
+
+.Hm-herocard{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 960px) {
+    .Hm-herocard{
+        flex-direction: row;
+    }
+    .Hm-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }    
+    .Hm-img-semiround{
+        width: auto;
+        height: 440px;
+        margin: 0;
+    }
+    .Hm-wrapper{
+        width: 100%;
+        background-color: white;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .Hm-herocard{
+        margin: 30px auto; 
+        width: inherit;
+    }
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .Hm-herocard{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,110 @@
+.Pd-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Pd-wrapper{
+    width: 50%;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    padding-bottom: 30px;
+}
+
+.Pd-item1{
+    width: 100%;
+}
+
+.Pd-btn1{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.Pd-label{
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 50%;
+}
+
+.Pd-detail{
+    background-color: white;
+    border: none;
+    width: 250px;
+    min-width: 200px;
+    padding :5px;
+}
+
+.Pd-btn2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.Pd-info-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 220px;
+}
+
+.Pd-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Pd-label{
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.Pd-input{
+    width: 220px;
+    height: 32.5px;
+    padding: 5px;
+}
+@media screen and (max-width : 460px) {
+    .Pd-wrapper{
+        flex-direction: column;
+        justify-content: stretch;
+    }
+
+    .Pd-btn1{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding: 10px 5px 0;
+    }
+    
+    .Pd-item1{
+        width: 100%;
+    }
+
+    .Pd-label{
+        text-align: center;
+        padding: 5px;
+    }
+
+    .Pd-btn2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Pd-btn2 button{
+        margin: 10px 0;
+    }
+}

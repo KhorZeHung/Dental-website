@@ -1,0 +1,72 @@
+.f-container{
+    display: flex;
+    min-height: 380px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px auto 60px;
+}
+
+.f-title{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.f-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #aeaeae;
+    width: 75%;
+    max-width: 400px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.f-label{
+    text-transform: uppercase;
+}
+.f-input{
+    padding: 5px 10px;
+    margin: 10px 0 15px;
+    border: none;
+}
+.f-alter-error{
+    width: 94%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin: 10px 0 ;
+    background-color: rgb(255, 170, 170);
+    border: 1px solid red;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+.f-alter-success{
+    width: 94%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin: 10px 0;
+    background-color: rgb(186, 255, 186);
+    border: 1px solid green;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.f-link{
+    text-decoration: none;
+    padding: 10px 0;
+    color: #1492e6;
+}
+.f-words{
+    padding: 10px 0;
+}
+
+.f-btn{
+    display: flex;
+    justify-content: center;
+}

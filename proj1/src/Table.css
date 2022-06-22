@@ -1,0 +1,61 @@
+
+table {
+    border-collapse: collapse;
+  }
+
+  th{
+    background-color: rgb(21, 21, 21);
+    color: white;
+    padding: 12px;
+    margin: 0;
+    border: none;
+    text-align: center;
+    word-break: normal;
+    white-space: normal;
+    font-weight: normal;
+}
+
+.T-tr1 td{
+    min-width: 120px;
+}
+.T-tr2 td{
+    width: 100px;
+}
+
+.Ad-btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+td{    
+    border-bottom: 1px solid rgb(105, 105, 105);
+    padding: 12px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+tr:nth-child(even){
+    background-color: rgb(218, 218, 218);
+}
+
+tr:hover{
+    background-color: rgb(154, 154, 154);
+}
+
+.T-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+    table{
+        display: block;
+        margin-inline: auto;
+        width: max-content;
+    }
+}

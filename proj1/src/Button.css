@@ -1,0 +1,42 @@
+:root {
+    --blue: #1492e6;
+    --white: #fff
+  }
+
+.btn--primary{
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    font-weight: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn--round{
+    border-radius: 20px;
+}
+
+.btn--web-small{
+    padding: 5px 10px;
+    font-size: 0.85rem;
+    min-width: 100px;
+}
+
+.btn--web-large{
+    padding: 7px 15px;
+    font-size: 0.9rem;
+    min-width: 130px;
+}
+
+.btn--mobile{
+    width: 80%;
+    padding: 6px 20px;
+    font-size: 1.2rem;
+    align-content: center;
+}
+
+.btn--web-large:hover,
+.btn--web-small:hover{
+    background-color:#1a76b4;
+    transition: all 1.0s ease-in-out;
+}

@@ -1,0 +1,147 @@
+.Ad-container{
+    width: 100%;
+    min-height: 400px;
+    margin: 30px 0;
+}
+
+.Ad-title{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:1.5rem;
+}
+
+.Ad-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 400px;
+    border: none;
+}
+
+.Ad-selection{
+    background-color: rgb(21, 21, 21);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    min-width: 250px;
+}
+
+.Ad-uolist{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Ad-list{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border: 2px solid transparent;
+}
+
+.Ad-list-active,
+.Ad-list:hover{
+    border-bottom: 2px solid white;
+    transition: all 0.3s ease-in;
+}
+
+.Ad-information{    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 400px;
+    min-width: 480px;
+    background-color: rgb(175, 175, 175);
+    padding: 30px 30px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Ad-btn1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 690px;    
+}
+
+@media screen and (max-width: 960px) {
+    .Ad-selection{
+        width: 90%;
+        min-height: 0;
+        height: 80px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Ad-selection ul{
+        display: flex;
+        width: 100%;
+        text-align:center;
+        flex-wrap: wrap;
+        margin: 0 20px;
+    }
+
+    .Ad-selection ul li{
+        display: inline;
+        white-space: normal;
+        word-wrap: break-word;
+        min-width: 33%;
+    }
+
+    .Ad-information{
+        display: inline-block;
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 90%;
+        min-width: 0;
+        padding-top: 30px;
+        margin-top: 0;
+        min-height: 260px;
+    }    
+    .Ad-btn1{
+        width: 90%;
+        min-width: 0;
+    }
+    .Ad-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .Ad-wrapper{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Ad-uolist{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Ad-list{
+        font-size: 0.7rem;
+        word-break: normal;
+        width: 80px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .Ad-information{
+        display: flex;
+        height: auto;
+    }
+}
