@@ -52,7 +52,6 @@
 }
 
 .Ad-information{    
-    display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
@@ -137,13 +136,5 @@
         word-break: normal;
         width: 80px;
         margin: 0 auto;
-    }
-}
-
-
-@media screen and (max-width: 460px) {
-    .Ad-information{
-        display: flex;
-        height: auto;
     }
 }
