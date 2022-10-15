@@ -5,12 +5,14 @@ const cors = require("cors");
 const mysql = require("mysql");
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
+require('dotenv').config()
+var env = process.env;
 
 const db = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "password",
-  database: "proj1-db",
+  host: env.HOST, 
+  user: env.USER,
+  password: env.PASSWORD,
+  database: env.DATABASE,
 });
 
 app.use(bodyParser.urlencoded({ extended: true }));
