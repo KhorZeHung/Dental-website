@@ -40,6 +40,7 @@ function SLForm({ styleSLForm }) {
             element.classList.remove("f-alter-success");
             element.classList.add("f-alter-error");
             element.innerHTML = response.data.err;
+            console.log(response.data.err);
           } else if (response.data.get) {
             element.classList.remove("f-alter-error");
             element.classList.add("f-alter-success");

@@ -3,17 +3,17 @@ export const dataDentists = {
     name: "Mr.Khor",
     children: "Graduate from UM",
     year: 8,
-    pic: "profilepic1.jpg"
+    pic: "profilepic1.jpg",
   },
   dataDentist2: {
     name: "Ms.Sandy",
     children: "Graduate from LJMU",
     year: 4,
-    pic: "profilepic2.jpg"
+    pic: "profilepic2.jpg",
   },
 };
 
-export const url = "http://localhost:3000"
+export const url = "http://localhost:3000";
 
 export const HSdata1 = {
   style: "aboutUs",
@@ -33,48 +33,47 @@ export const HSdata1 = {
    appear, male a and abundantly green creepeth. Greater 
    saying third replenish our stars She'd life, years life
     his their creepeth morning also make she'd multiply said
-     fish made. Days open cattle signs heaven, bearing fish  `
+     fish made. Days open cattle signs heaven, bearing fish  `,
 };
 
-
 export const HSdata2 = {
-  title : "TREATMENT",
-  datas : [
+  title: "TREATMENT",
+  datas: [
     {
-    name: "Brace",
-    children: "Reorganize the teeth for better smile",
-    price: "RM 3000.00",
-    pic: "treatment_brace.jpg"
+      name: "Brace",
+      children: "Reorganize the teeth for better smile",
+      price: "RM 3000.00",
+      pic: "treatment_brace.jpg",
     },
     {
-    name: "Cosmetic whitining",
-    children: "Let us increase your confident",
-    price: "RM 150.00",
-    pic: "treatment_cosmetic_whitening.jpg"
+      name: "Cosmetic whitining",
+      children: "Let us increase your confident",
+      price: "RM 150.00",
+      pic: "treatment_cosmetic_whitening.jpg",
     },
     {
-    name: "Dental Filling",
-    children: "Prevent your teeth from cavities",
-    price: "RM 180.00",
-    pic: "treatment_dental_filling.jpg"
+      name: "Dental Filling",
+      children: "Prevent your teeth from cavities",
+      price: "RM 180.00",
+      pic: "treatment_dental_filling.jpg",
     },
     {
-    name: "Oral Hygiene",
-    children: "Not only look but smell good",
-    price: "RM 200.00",
-    pic: "treatment_oral_hygiene.jpg"
+      name: "Oral Hygiene",
+      children: "Not only look but smell good",
+      price: "RM 200.00",
+      pic: "treatment_oral_hygiene.jpg",
     },
     {
-    name: "Dental Implantation",
-    children: `3nd change of having a new teeth`,
-    price: "RM 4000.00",
-    pic: "treatment_dental_implantans.jpg"
+      name: "Dental Implantation",
+      children: `3nd change of having a new teeth`,
+      price: "RM 4000.00",
+      pic: "treatment_dental_implantans.jpg",
     },
     {
-    name: "Dental surgery",
-    children: "We can reduce the pain",
-    price: "RM 250.00",
-    pic: "treatment_surgery.jpg"
-    }
-  ]
-}
+      name: "Dental surgery",
+      children: "We can reduce the pain",
+      price: "RM 250.00",
+      pic: "treatment_surgery.jpg",
+    },
+  ],
+};

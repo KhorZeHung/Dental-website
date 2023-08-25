@@ -21,7 +21,7 @@ app.use(express.json());
 app.listen(3001);
 
 app.get("/", (req, res) => {
-  res.send("Hello world and try to make something usefull");
+  res.send("Hello world and try to make something useful");
 });
 
 app.post("/api/insert/signup", (req, res) => {
@@ -33,7 +33,7 @@ app.post("/api/insert/signup", (req, res) => {
 
   db.query(sqlSelect, [custPNum], (error, response) => {
     if (error) {
-      res.send(error);
+      res.send({ insert: false, err: error });
     } else if (response.length > 0) {
       res.send({ insert: false, err: "Phone Number is registered" });
     } else {
@@ -64,7 +64,7 @@ app.post("/api/get/login", (req, res) => {
     if (err) {
       res.send({
         get: false,
-        err: "err1",
+        err: err,
       });
     } else if (response.lenth < 1) {
       res.send({
